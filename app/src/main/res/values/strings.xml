@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lego Sets Organizer</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="edytuj">Edytuj</string>
+    <string name="archiwizuj">Archiwizuj</string>
+    <string name="ustawienia">Ustawienia</string>
+    <string name="wyeksportuj">Wyeksportuj</string>
+    <string name="zwieksz">Zwiększ liczbę</string>
+    <string name="zmniejsz">Zmniejsz liczbę</string>
+    <string name="zatwierdz">Zatwierdź</string>
+    <string name="anuluj">Anuluj</string>
+    <string name="legoSetNumber">Wpisz numer zestawu</string>
+    <string name="html">Wpisz adres</string>
+    <string name="infoPrefix">Wpisz nowy prefiks adresu</string>
+    <string name="exportOptions">Opcje eksportowania pliku</string>
+    <string name="exportSD">Wyeksportuj do karty SD</string>
+    <string name="exportMail">Wyeksportuj mailem</string>
+    <string name="exportStorageAccess">Wyeksportuj do Storage Access</string>
+    <string name="showArchived">Pokaż zarchiwzowane projekty</string>
+    <string name="thumbnail">Obrazek</string>
+</resources>

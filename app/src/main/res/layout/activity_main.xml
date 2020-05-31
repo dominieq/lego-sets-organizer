@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".activities.MainActivity"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:baselineAligned="false">
+    <ListView
+            android:id="@+id/lego_set_list_view"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:choiceMode="singleChoice"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        <Button
+                android:text="@string/dodaj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnAdd"
+                android:onClick="addNewInventory"/>
+        <Button
+                android:text="@string/wyeksportuj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnExport" android:onClick="exportInventory"/>
+        <Button
+                android:text="@string/edytuj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnEdit"
+                android:onClick="editInventory"/>
+        <Button
+                android:text="@string/archiwizuj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnArchive" android:onClick="archiveInventory"/>
+        <Button
+                android:text="@string/ustawienia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnOptions" android:onClick="showOptions"/>
+    </LinearLayout>
+</LinearLayout>

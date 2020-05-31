@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".activities.LegoSetActivity"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:baselineAligned="false">
+
+    <ListView
+            android:layout_weight="9"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/lego_brick_list_view">
+
+    </ListView>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2">
+        <Button
+                android:text="@string/zwieksz"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnAdd"
+                android:layout_weight="1" android:onClick="handleIncreaseNumber"/>
+        <Button
+                android:text="@string/zmniejsz"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnDim"
+                android:layout_weight="1" android:onClick="handleDecreaseNumber"/>
+    </LinearLayout>
+
+</LinearLayout>

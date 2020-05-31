@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="8"
+        tools:context=".activities.OptionsActivity"
+        android:orientation="vertical">
+
+
+    <CheckBox
+            android:text="@string/showArchived"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/checkShowArchived"/>
+    <TextView
+            android:text="@string/infoPrefix"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/textInfoPrefix"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" android:gravity="bottom"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:inputType="textUri"
+            android:ems="10"
+            android:id="@+id/editAddressPrefix" android:hint="@string/html"/>
+</LinearLayout>
